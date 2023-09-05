@@ -6,4 +6,14 @@ SELECT * FROM Material;
 
 ALTER TABLE Material ADD COLUMN Thread_column int;
 ALTER TABLE Material ADD COLUMN color_column int;
+use CLOTH_COMPANY;
+SELECT * FROM Material;
+ALTER TABLE Material MODIFY COLUMN brand_name varchar(50);
+use CLOTH_COMPANY;
+
+desc Material;
+
+
+
+
 
