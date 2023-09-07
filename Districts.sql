@@ -112,3 +112,12 @@ insert into state_info values(10,'rajastan','ajipur',39,'suhas','Dhanush',49,200
 
 
 
+drop table state_info;
+
+create table petrolbunk_info(id int not null check(id<=10),petrolbunk_name varchar(30),petrolbunk_id int,
+location varchar(30),petrolbunk_type varchar(20),primary key (id));
+
+
+
+
+
